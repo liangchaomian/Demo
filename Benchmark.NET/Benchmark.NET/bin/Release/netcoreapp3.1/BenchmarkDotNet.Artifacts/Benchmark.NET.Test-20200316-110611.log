@@ -1,0 +1,17 @@
+// Validating benchmarks:
+// ***** BenchmarkRunner: Start   *****
+// ***** Found 1 benchmark(s) in total *****
+// ***** Building 1 exe(s) in Parallel: Start   *****
+// start dotnet restore  /p:UseSharedCompilation=false /p:BuildInParallel=false /m:1 in D:\个人项目\Benchmark.NET\Benchmark.NET\bin\Release\netcoreapp3.1\eca1b669-d212-4879-8780-ace4b2fc188a
+// command took 1.47s and exited with 0
+// start dotnet build -c Release  --no-restore /p:UseSharedCompilation=false /p:BuildInParallel=false /m:1 in D:\个人项目\Benchmark.NET\Benchmark.NET\bin\Release\netcoreapp3.1\eca1b669-d212-4879-8780-ace4b2fc188a
+// command took 2.15s and exited with 0
+// ***** Done, took 00:00:03 (3.71 sec)   *****
+// Found 1 benchmarks:
+//   Test.Benchmark1: DefaultJob
+
+// **************************
+// Benchmark: Test.Benchmark1: DefaultJob
+// *** Execute ***
+// Launch: 1 / 1
+// Execute: dotnet "eca1b669-d212-4879-8780-ace4b2fc188a.dll" --benchmarkName "Benchmark.NET.Test.Benchmark1" --job "Default" --benchmarkId 0 in D:\个人项目\Benchmark.NET\Benchmark.NET\bin\Release\netcoreapp3.1\eca1b669-d212-4879-8780-ace4b2fc188a\bin\Release\netcoreapp3.1

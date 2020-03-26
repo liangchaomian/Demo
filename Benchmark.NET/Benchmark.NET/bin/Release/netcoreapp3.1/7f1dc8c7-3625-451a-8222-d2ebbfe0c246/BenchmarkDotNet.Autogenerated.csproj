@@ -1,0 +1,32 @@
+
+<Project Sdk="Microsoft.NET.Sdk">
+  <PropertyGroup>
+    <ImportDirectoryBuildProps>false</ImportDirectoryBuildProps>
+    <ImportDirectoryBuildTargets>false</ImportDirectoryBuildTargets>
+    <OutputType>Exe</OutputType>
+    <TargetFramework>netcoreapp3.1</TargetFramework>
+    <RuntimeIdentifier>win-x64</RuntimeIdentifier>
+    <RuntimeFrameworkVersion></RuntimeFrameworkVersion>
+    <AssemblyName>7f1dc8c7-3625-451a-8222-d2ebbfe0c246</AssemblyName>
+    <AssemblyTitle>7f1dc8c7-3625-451a-8222-d2ebbfe0c246</AssemblyTitle>
+    <AllowUnsafeBlocks>true</AllowUnsafeBlocks>
+    <TreatWarningsAsErrors>False</TreatWarningsAsErrors>
+    <DebugType>pdbonly</DebugType>
+    <DebugSymbols>true</DebugSymbols>
+    <UseSharedCompilation>false</UseSharedCompilation>
+    <RootAllApplicationAssemblies>False</RootAllApplicationAssemblies>
+    <IlcGenerateCompleteTypeMetadata>True</IlcGenerateCompleteTypeMetadata>
+    <IlcGenerateStackTraceData>True</IlcGenerateStackTraceData>
+  </PropertyGroup>
+  
+  <ItemGroup>
+    <Compile Include="7f1dc8c7-3625-451a-8222-d2ebbfe0c246.notcs" Exclude="bin\**;obj\**;**\*.xproj;packages\**" />
+  </ItemGroup>
+  <ItemGroup>
+    <PackageReference Include="Microsoft.DotNet.ILCompiler" Version="1.0.0-alpha-*" />
+    <ProjectReference Include="D:\个人项目\Benchmark.NET\Benchmark.NET\Benchmark.NET.csproj" />
+  </ItemGroup>
+  <ItemGroup>
+    <RdXmlFile Include="rd.xml" />
+  </ItemGroup>
+</Project>
